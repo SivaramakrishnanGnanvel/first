@@ -1,15 +1,21 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%> 
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<link rel="stylesheet" href="style.css">
+<title>Registration Success</title>
 </head>
-<body>
-<h1>Registration is successful</h1>
+<body><div class="center">
+<h3 style="color: white;font-size: 24px;">Registration is successful..!!</h3>
 <form action="login.jsp">
-<input type="submit" name="LoginNow">
-</form>
+<input class="submit" type="submit" name="LoginNow" value="Login">
+</form></div>
+<div class="video-container">
+	        <div class="color"></div>
+	        <video autoplay loop muted>        
+	        <source src="video/yellowleaf.mp4" type="video/mp4">
+	        </video>
+        </div>
 </body>
 </html>

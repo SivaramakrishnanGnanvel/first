@@ -10,7 +10,7 @@
         
     <div class="section">
         <form action="ChangePassword">
-         <h3>Change Password</h3>
+         <h3 style="color: white">Change Password</h3>
             <table>
                 <tr>
                     <td>
@@ -30,7 +30,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="submit" value="Change Password" />
+                        <input class="submit" type="submit" value="Change Password" />
                     </td>
                 </tr>
             </table>

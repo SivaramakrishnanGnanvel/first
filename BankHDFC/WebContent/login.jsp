@@ -4,7 +4,7 @@
 <html>
 <head><link rel="stylesheet" href="style1.css" />
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Login Page</title>
 </head>
 <body>
 
@@ -17,8 +17,7 @@
 		<td>Password</td>
 		<td><input id="pass" class="login" type="password" name="pwd"></td></tr>
 	<tr>
-		<td><input type="submit" name="login"></td>
-		<td><a href="forgetpwd.jsp">ForgetPassword</a></td></tr>
+		<td><input class="submit" type="submit" name="login" value="Login"></td>
 	<tr>
 		<td><a href="register.jsp">Register Now</a></td></tr>
 	</table>
@@ -27,7 +26,7 @@
 <div class="video-container">
 	        <div class="color"></div>
 	        <video autoplay loop muted>        
-	        <source src="video/forest.mp4" type="video/mp4">
+	        <source src="video/tree.mp4" type="video/mp4">
 	        </video>
         </div>
 </div>

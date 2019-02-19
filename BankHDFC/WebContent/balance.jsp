@@ -6,15 +6,16 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Balance</title>
     </head>
-    <body>
+    <body><div class="center">
         <h1>Your Balance is :
             <%
                 out.println(session.getAttribute("balance"));
             %>
         </h1>
-        <br />
-        <a href="Logout">Logout</a>
-        <a href="home.jsp">Home</a>
+        <br>
+         <a class="top" href="home.jsp">Home</a><br>
+        <a class="submit" href="Logout">Logout</a>
+       </div>
        <div class="video-container">
 	        <div class="color"></div>
 	        <video autoplay loop muted>        
